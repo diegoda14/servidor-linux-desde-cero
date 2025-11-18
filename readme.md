@@ -1,7 +1,7 @@
 Título: Proyecto personal – Servidor Linux desde cero en VirtualBox
 
 Descripción general
-He montado y documentado un servidor Linux minimalista (Ubuntu/Debian) dentro de una máquina virtual en VirtualBox, simulando el entorno de un servidor real conectado a la red local. El objetivo del proyecto es practicar y demostrar habilidades de administración de sistemas
+He montado y documentado un servidor Linux minimalista (Ubuntu Server) dentro de una máquina virtual en VirtualBox, simulando el entorno de un servidor real conectado a la red local. El objetivo del proyecto es practicar y demostrar habilidades de administración de sistemas
 
 El servidor se ha configurado con:
 
@@ -19,7 +19,7 @@ Puede reproducirse fácilmente en cualquier entorno similar.
 
 Paso 1 – Instalación del servidor en VirtualBox
 
-	Creé una máquina virtual en VirtualBox con una distribución Linux de servidor (Ubuntu Server / Debian) usando una instalación mínima, sin entorno gráfico. La red de la máquina está configurada en modo “Bridge” para que el servidor reciba una IP propia dentro de la red local mediante DHCP, como si fuera un equipo físico más.
+	Creé una máquina virtual en VirtualBox con una distribución Linux de servidor (Ubuntu Server ) usando una instalación mínima, sin entorno gráfico. La red de la máquina está configurada en modo “Bridge” para que el servidor reciba una IP propia dentro de la red local mediante DHCP, como si fuera un equipo físico más.
 
 	Durante la instalación se configuró un usuario inicial, el hostname del servidor y los paquetes básicos necesarios para trabajar por terminal. El resultado es un servidor limpio, ligero y preparado para ser administrado remotamente.
 
@@ -122,5 +122,6 @@ Al finalizar la configuración, verifiqué que:
 	Los logs del sistema y de los servicios son accesibles y permiten identificar intentos de intrusión, problemas de servicios y errores de configuración.
 
 	El servicio de backup se ejecuta correctamente, crea directorios de copia con fecha y deja constancia en un log específico.
+
 
 FIN
